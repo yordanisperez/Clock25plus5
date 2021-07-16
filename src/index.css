@@ -1,5 +1,15 @@
+body{
+    margin: 0px;
+}
+
 #root{
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: rgb(223,242,252);
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    margin: 0;
+    font-size: 22px;
     
 }

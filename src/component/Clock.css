@@ -1,0 +1,39 @@
+.clock-config{
+    display: flex;
+    justify-items: center;
+    
+}
+
+.clock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid  slategrey;
+    border-radius: 2.5rem;
+    margin:2rem 3rem 0rem 3rem;
+    padding: 1.2rem;
+    
+    
+}
+
+#start_stop{
+    float:left;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+#reset{
+    float:right;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;   
+}
+.clock-btn{
+ margin-top: 0.25rem;
+    
+}
+
+#time-left{
+    font-size: 40px;
+    margin:0.5rem auto 0.5rem auto
+}

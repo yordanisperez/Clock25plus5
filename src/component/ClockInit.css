@@ -1,0 +1,55 @@
+.block-config{
+    display: flex;
+    flex-direction: column;
+    margin:0rem 2.5rem 0rem 2.5rem;
+    align-content: center;
+}
+
+
+#break-increment{
+    float:right;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+#break-decrement{
+    float: left;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+ }
+
+
+
+#session-increment{
+    float:right;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+#session-decrement{
+    float: left;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+
+}
+
+#break-length{
+    text-align: center;
+    font-size: 22px;
+}
+
+#session-length{
+    text-align: center;
+    font-size: medium;
+    font-size: 22px;
+}
+
+@media (max-width: 500px) {
+    .block-config{
+        margin:0rem auto 0rem auto;
+    }
+}
